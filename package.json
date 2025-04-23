@@ -1,0 +1,26 @@
+{
+  "name": "api_from_scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacods/API_From_Scratch.git"
+  },
+  "author": "Dacoda Takagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacods/API_From_Scratch/issues"
+  },
+  "homepage": "https://github.com/dacods/API_From_Scratch#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
