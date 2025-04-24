@@ -47,20 +47,15 @@ A RESTful API that delivers random songs, albums, and artists — all protected 
 ## Sample Test (using curl)
 Login (get a token):
 
-- curl -X POST http://localhost:3000/login \
-  -H "Content-Type: application/json" \
-  -d '{"email":"test@music.com", "password":"letmein"}'
+- curl -X POST http://localhost:3000/login -H "Content-Type: application/json" -d '{"email":"test@music.com", "password":"letmein"}'
 
 Use your token:
-- curl http://localhost:3000/songs/random \
-  -H "X-Token: your_token"
+- curl http://localhost:3000/songs/random -H "X-Token: your_token"
 
-- curl http://localhost:3000/albums/random \
-  -H "X-Token: your_token"
+- curl http://localhost:3000/albums/random -H "X-Token: your_token"
 
-- curl http://localhost:3000/artists/random \
-  -H "X-Token: your_token"
+- curl http://localhost:3000/artists/random -H "X-Token: your_token"
 
 ## Author
 
-Dacoda Takagi
+Dacoda Takagi 
